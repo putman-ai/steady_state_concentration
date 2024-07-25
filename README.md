@@ -1,4 +1,4 @@
-# steady_state_concentration
+# Estimating Steady State Concentration
 Approximating steady state concentration levels for end-stage hospice patients.
 
 This is by far one of the most difficult things I've ever done; the kaos, pressure and emotions at the time were very high. Six months later it's still difficult to think about it.
