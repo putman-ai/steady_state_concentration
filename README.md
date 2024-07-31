@@ -13,7 +13,7 @@ This lead to some drama between myself and the nurses and I was basically told t
 Shortly after, the head nurse from the facility came to our house, gave my mother a thurough examination and said:
 "She's good, she's doing really good, she's in no pain. Just keep doing what you're doing and let us know what you need."
 
-"We do the best we can at the time" ~ BLP
-Sinn Féin
+"We do the best we can at the time" ~ BLP  
+Sinn Féin  
 
 <3 U
