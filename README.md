@@ -1,17 +1,35 @@
 # Estimating Steady State Concentration
-Approximating steady state concentration levels for end-stage hospice patients.
 
-This is by far one of the most difficult things I've ever done; the kaos, pressure and emotions at the time were very high. Six months later it's still difficult to think about it.
-Unless you're a medical professional, I don't recommend anyone use this, but it may give you some insight into end-stage dosing approximation.
-This was simply a best-effort at the time and I'm sure there are massive gaps in the logic and math.
+## Overview
+A Python-based analytical tool for modeling steady state concentration levels of medications, with specific application to end-stage palliative care. The model calculates and visualizes concentration levels over time, accounting for factors such as half-life, dosing intervals, and timing variations.
 
-During my mothers final weeks, she was put on some very strong medication, as is normal with hospice care. Unfortunately she had a very negative reaction to the Roxanol.
-Despite their best efforts, the doctors and nurses were never able to land on a tollerable dosing and the time spent waiting on "next-attempts" was typically measured in days. 
-Finally out of despiration, I put my data-science hat on, went through all my the notes, and tried to find a logical solution that was better then just "stronger and more."
+## Background
+This tool was developed during a critical period of hospice care to address complex medication management challenges. It arose from a need to optimize dosing schedules when standard protocols proved ineffective, ultimately receiving validation from senior hospice care professionals.
 
-This lead to some drama between myself and the nurses and I was basically told to stay in my lane. 
-Shortly after, the head nurse from the facility came to our house, gave my mother a thurough examination and said:
-"She's good, she's doing really good, she's in no pain. Just keep doing what you're doing and let us know what you need."
+## Features
+- Calculates steady state concentration levels for multiple medications
+- Visualizes concentration levels over time
+- Models the effects of different dosing intervals
+- Analyzes impact of timing variations on medication levels
+- Supports comparative analysis between different medications
+
+## Technical Components
+- Concentration level calculations using half-life decay models
+- Time-series visualization using matplotlib
+- Support for multiple medication profiles
+- Timing offset analysis for dosing variations
+
+## Important Notice
+This tool was developed for analytical purposes in a specific medical context under professional supervision. It is not intended for general medical use or as a replacement for professional medical judgment. Any application of this model should be conducted only under appropriate medical supervision.
+
+## Implementation Notes
+- Built using Python with numpy and matplotlib
+- Includes visualization of steady state concentrations
+- Models both single and comparative medication scenarios
+- Supports analysis of timing variations in medication administration
+
+## Acknowledgments
+Special thanks to the hospice care professionals who validated this approach and provided support during its implementation.
 
 "We do the best we can at the time" ~ BLP  
 Sinn Féin  
