@@ -32,6 +32,4 @@ This tool was developed for analytical purposes in a specific medical context un
 Special thanks to the hospice care professionals who validated this approach and provided support during its implementation.
 
 "We do the best we can at the time" ~ BLP  
-Sinn Féin  
-
 <3 U
