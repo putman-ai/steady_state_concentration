@@ -13,23 +13,58 @@ This tool was developed during a critical period of hospice care to address comp
 - Analyzes impact of timing variations on medication levels
 - Supports comparative analysis between different medications
 
+## Project Structure
+```
+steady_state_concentration/
+├── src/
+│   ├── __init__.py
+│   ├── calculator.py      # Core calculation module
+│   └── visualization.py   # Plotting and visualization
+├── tests/
+│   └── test_calculator.py # Unit tests
+├── ssc_analysis.ipynb     # Main analysis notebook
+├── setup.py              # Package installation
+├── requirements.txt      # Dependencies
+└── README.md
+```
+
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/steady_state_concentration.git
+cd steady_state_concentration
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Usage
+The main interface is provided through `ssc_analysis.ipynb`, a Jupyter notebook that demonstrates key functionality:
+- Basic concentration calculations
+- Comparative medication analysis
+- Timing variation studies
+- Custom medication profiles
+
+For programmatic usage, see `examples/example_scenarios.ipynb`.
+
 ## Technical Components
 - Concentration level calculations using half-life decay models
 - Time-series visualization using matplotlib
 - Support for multiple medication profiles
 - Timing offset analysis for dosing variations
 
-## Important Notice
-This tool was developed for analytical purposes in a specific medical context under professional supervision. It is not intended for general medical use or as a replacement for professional medical judgment. Any application of this model should be conducted only under appropriate medical supervision.
-
-## Implementation Notes
+## Implementation Details
 - Built using Python with numpy and matplotlib
 - Includes visualization of steady state concentrations
 - Models both single and comparative medication scenarios
 - Supports analysis of timing variations in medication administration
+
+## Important Notice
+This tool was developed for analytical purposes in a specific medical context under professional supervision. It is not intended for general medical use or as a replacement for professional medical judgment. Any application of this model should be conducted only under appropriate medical supervision.
 
 ## Acknowledgments
 Special thanks to the hospice care professionals who validated this approach and provided support during its implementation.
 
 "We do the best we can at the time" ~ BLP  
 <3 U
+

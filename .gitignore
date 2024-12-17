@@ -78,6 +78,14 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Project-specific directories
+dev_notebooks
+project_management
+
+
+
+# Project-specific files
+
 # IPython
 profile_default/
 ipython_config.py

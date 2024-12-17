@@ -1,0 +1,5 @@
+# Core data processing and scientific computing
+numpy==1.23.5
+
+# Visualization
+matplotlib==3.7.1
