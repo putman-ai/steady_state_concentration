@@ -20,7 +20,7 @@ class ConcentrationVisualizer:
                           time_range: Tuple[float, float] = (0, 24),
                           time_step: float = 0.1,
                           title: str = 'Medication Concentration Levels Over Time',
-                          figsize: Tuple[int, int] = (10, 6)):
+                          figsize: Tuple[int, int] = (7, 5)):
         """
         Plot concentration levels over time for all medications in the calculator.
         
@@ -55,7 +55,7 @@ class ConcentrationVisualizer:
                              medication: MedicationProfile,
                              time_range: Tuple[float, float] = (0, 72),
                              time_step: float = 0.1,
-                             figsize: Tuple[int, int] = (10, 6)):
+                             figsize: Tuple[int, int] = (7, 5)):
         """
         Plot concentration levels with timing variations for a single medication.
         
